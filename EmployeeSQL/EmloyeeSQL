@@ -1,0 +1,32 @@
+Dept Name
+--
+Dept Number int pk
+
+Dept Emp
+--
+Dept Number int
+Emp Number fk
+
+Dept Manager 
+--
+Dept Number int
+Employe number fk
+
+Employees
+--
+Emp Number fk
+Emp Title fk
+Birth Date
+First Name
+Last Name 
+Sex
+Hire Date
+
+Salaries
+--
+Emp Number fk
+Salary
+
+Titles
+Title id(Emp title)
+Title
